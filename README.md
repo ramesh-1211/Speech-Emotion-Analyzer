@@ -1,3 +1,19 @@
 # Speech-Emotion-Analyzer
 
-It is a Python-based project that detects human emotions from speech audio. It extracts features like MFCCs and uses machine learning models to classify emotions such as happy, sad, angry, and neutral. The project is in its initial development stage and will be updated with real-time predictions and advanced models soon.
+This project focuses on detecting human emotions from speech audio using Python. It extracts key audio features such as MFCCs (Mel-Frequency Cepstral Coefficients) and applies machine learning models to classify emotions like:
+
+😊 Happy
+
+😔 Sad
+
+😡 Angry
+
+😐 Neutral
+
+The project is currently in its initial development stage. Upcoming enhancements will include:
+
+⏱️ Real-time emotion prediction
+
+🤖 More advanced and optimized models
+
+
