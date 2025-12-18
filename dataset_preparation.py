@@ -19,3 +19,11 @@ for emotion in EMOTIONS:
             if features is not None:
                 X.append(features)
                 y.append(label)
+X = np.array(X)
+y = np.array(y)
+np.save("X_features.npy", X)
+np.save("y_labels.npy", y)
+
+print("Dataset prepared successfully!")
+print("Features shape:", X.shape)
+print("Labels shape:", y.shape)
