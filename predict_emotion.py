@@ -17,4 +17,9 @@ temp_file = "temp_audio.wav"
 write(temp_file, fs, audio)
 features = extract_mfcc(temp_file)
 
+if features is not None:
+    prediction = model.predict([features])[0]
+    print("Predicted Emotion:", EMOTIONS[prediction])
+else:
+    print("Could not extract features from audio.")
 
